@@ -7,6 +7,11 @@ import org.springframework.stereotype.Repository;
 
 import java.util.Optional;
 
+
+
+
+
+
 @Repository
 public interface UsersDao extends JpaRepository<User, Integer> {
 //no methods here
